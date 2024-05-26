@@ -1,0 +1,26 @@
+[package]
+name = "map_to_range"
+version = "0.1.1"
+edition = "2021"
+description = "A library to map numbers from on range to another"
+license = "MIT"
+repository = "https://github.com/JonasFocke01/map_to_range"
+
+[dependencies]
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+clone_on_ref_ptr = "warn"
+expect_used = "warn"
+float_cmp_const = "warn"
+indexing_slicing = "warn"
+panic = "warn"
+string_add = "warn"
+string_to_string = "warn"
+todo = "warn"
+unimplemented = "warn"
+unreachable = "warn"
+unwrap_used = "warn"
+wildcard_enum_match_arm = "warn"
+module_name_repetitions = "allow"
+similar_names = "allow"
