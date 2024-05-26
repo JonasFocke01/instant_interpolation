@@ -49,7 +49,7 @@ pub trait MapRange:
     /// assert_eq!(None, test.map_range_uncasted((10, 20), (20, 30)));
     /// ```
     ///
-    /// This is the more performant version of `map_range`, at the cost of precisionloss and
+    /// This is the more performant version of `map_range`, at the cost of precision and
     /// possible unexpected results. To be safe, just call `map_range`. That will handle the
     /// casting for you and ensures, that you get correct results.
     fn map_range_uncasted(&self, from_range: (Self, Self), to_range: (Self, Self)) -> Option<Self> {
